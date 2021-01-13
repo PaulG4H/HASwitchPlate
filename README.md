@@ -28,20 +28,19 @@ To build a simple version of this project you will minimally need the [Nextion d
 
 A complete build that's ready to install will require the following components:
 
-* [Nextion 2.4" LCD Touchscreen display](https://amzn.to/2RksiXr)
+```
+CHANGED Bom for European Version by PaulG4H 
+```
+
+* [Nextion 3.2" LCD Touchscreen display standard]
 * [WeMos D1 Mini ESP8266 WiFi microcontroller](https://amzn.to/2UZlga4)
-* [3D printed switch plate](3D_Printable_Models/HASwitchPlate_front_single.stl)
-* [3D printed rear cover](3D_Printable_Models/HASwitchPlate_rear_nolcdmod.stl)
+* [3D printed top](3d-print/Nextion_32_Top.stl)
+* [3D printed base](3d-print/Nextion_32_Base.stl)
+* Gira 55er double frame without middle like Gira #4010337002048 --> choose color and shape of frame you like
+* Eight magnets round 5mm diameter, 2mm thick (http://www.amazon.de/dp/B07T13H3R5/)
+* BME280 I2C temperature, humidity and air pressure sensor (http://www.amazon.de/dp/B07D8T4HP6/)
+* BH1750 I2C lux sensor (http://www.amazon.de/dp/B07TPHCJNN/)
 * [Mean Well IRM-03-5 AC to 5VDC Power supply](https://amzn.to/2UUWGa8)
-* [PCB](PCB/)
-* [2N3904 NPN Transistor](https://amzn.to/2TRuwwD)
-* [1k Ohm Resistor](https://amzn.to/2Ec3kTZ)
-* [4pin 2.54mm JST-XH PCB header](https://amzn.to/2Eaywmt)
-* [Rubber grommet](https://amzn.to/2N6Etny)
-* [6" each of white and black 300V 18AWG stranded power cables](https://amzn.to/2EcMmoA)
-* [Two M2 self-tapping 6MM screws](https://amzn.to/2V0djBg) (or just any 4-6mm M2 screws) to mount PCB in rear enclosure
-* [Four 20mm M2 flathead screws](https://amzn.to/2TQvd9N) and [four 3mm M2 threaded inserts](https://amzn.to/2N511Fh) to fasten both halves of the enclosure together
+* Level shifter for 3.3 to 5 volt serial connection to Nextion (http://www.amazon.de/dp/B07PY3CRFM/)
 
-## Get Started!
 
-[Check out the documentation](Documentation/) to get started building your own HA SwitchPlate.
